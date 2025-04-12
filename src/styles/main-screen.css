@@ -1,0 +1,51 @@
+/* main-screen.css */
+.main-screen {
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-screen h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #D1A558;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.main-screen p {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: rgba(209, 165, 88, 0.8);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.primary-button {
+  background-color: #D1A558;
+  color: #131018;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.primary-button:hover {
+  background-color: #C89B51;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: #D1A558;
+  border: 2px solid #D1A558;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.secondary-button:hover {
+  background-color: rgba(209, 165, 88, 0.1);
+}

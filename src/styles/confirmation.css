@@ -1,0 +1,79 @@
+
+/* confirmation.css */
+.confirmation-screen {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #131018;
+}
+
+.confirmation-card {
+  background: linear-gradient(135deg, #3B2749 0%, #1E1726 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #D1A558;
+}
+
+.confirmation-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #D1A558;
+}
+
+.confirmation-details {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: rgba(209, 165, 88, 0.1);
+  border-radius: 8px;
+}
+
+.confirmation-details p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.confirmation-details strong {
+  color: #D1A558;
+}
+
+.thank-you-message {
+  font-style: italic;
+  color: rgba(209, 165, 88, 0.8);
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.back-button {
+  background-color: #D1A558;
+  color: #131018;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+}
+/* Адаптивность */
+@media (max-width: 768px) {
+  .logo-container {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .main-screen h1 {
+    font-size: 1.8rem;
+  }
+  
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}

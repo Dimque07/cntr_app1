@@ -1,0 +1,31 @@
+/* main.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #131018;
+  color: #D1A558;
+}
+
+.app {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #131018;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+button:active {
+  transform: scale(0.98);
+}
